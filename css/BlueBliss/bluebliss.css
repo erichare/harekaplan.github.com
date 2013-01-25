@@ -34,7 +34,6 @@ body
   display: table; 
   height: 100%;  
   position: relative; 
-  overflow: hidden; 
   width: 600px;
 }
 
@@ -116,7 +115,6 @@ width:560px;
 	background-color:#E7EDF8;
 	width:600px;
 	clear:both;
-	height:2000px;
 }
 
 #header
