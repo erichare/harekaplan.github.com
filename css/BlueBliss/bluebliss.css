@@ -149,12 +149,12 @@ margin-top:25px;
 
 #leftbox {
 float:left;
-width:300px;
+width:50%;
 }
 
 #rightbox {
 float:right;
-width:300px;
+width:50%;
 }
 
 html, body {
