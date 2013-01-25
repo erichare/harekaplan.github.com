@@ -127,6 +127,7 @@ background-repeat:no-repeat;
 
 #footer
 {
+height:120px;
 width:600px;
 background-color:#FFFFFF;
 background-image:url(footer.gif);
