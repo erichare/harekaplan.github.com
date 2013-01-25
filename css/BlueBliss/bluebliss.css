@@ -40,7 +40,7 @@ body
 .link,.linkActive
 {
 width:75px;
-margin-right:10px;
+margin-right:0px;
 margin-top:44px;
 float:right;
 text-align:center;
@@ -67,7 +67,8 @@ font-weight:bold;
 
 #linkGroup
 {
-margin-right:15px;
+margin-right:10px;
+padding-right:10px;
 height:60px;
 width:600px;
 }
