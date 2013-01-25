@@ -134,7 +134,7 @@ background-repeat:no-repeat;
 text-align:center;
 padding-right:10px;
 color:#BDCDEC;
-padding-top:15px;
+padding-top:20px;
 }
 #footer a
 {
@@ -147,7 +147,21 @@ color:#BDCDEC;
 margin-top:25px;
 }
 
+.container {
+width:600px;
+margin:0 auto;
+position:relative;
+}
 
+#leftbox {
+float:left;
+width:300px;
+}
+
+#rightbox {
+float:right;
+width:300px;
+}
 
 html, body {
 text-align: center;
