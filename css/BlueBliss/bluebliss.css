@@ -127,7 +127,6 @@ background-repeat:no-repeat;
 
 #footer
 {
-height:120px;
 width:600px;
 background-color:#FFFFFF;
 background-image:url(footer.gif);
@@ -135,6 +134,7 @@ background-repeat:no-repeat;
 text-align:center;
 padding-right:10px;
 color:#BDCDEC;
+margin-top:25px;
 }
 #footer a
 {
