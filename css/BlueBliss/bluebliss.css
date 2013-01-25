@@ -130,7 +130,7 @@ background-repeat:no-repeat;
 #footer
 {
 width:600px;
-height:20px;
+height:60px;
 background-color:#FFFFFF;
 background-image:url(footer.gif);
 background-repeat:no-repeat;
@@ -146,7 +146,7 @@ color:#BDCDEC;
 
 #contentBox
 {
-margin-top:25px;
+margin-top:50px;
 }
 
 
