@@ -11,13 +11,6 @@
 ul {
     margin:auto;
 }
-ul li {
-    text-align:center;
-    list-style-position:inside; /* so that the bullet points are also centered */
-}
-ul li div {
-    display:inline; /* so that the bullet points aren't above the content */
-}
 
 .dropit {
     list-style: none;
