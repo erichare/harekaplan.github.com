@@ -10,17 +10,24 @@
 /* These styles assume you are using ul and li */
 .dropit {
     list-style: none;
-	padding: 0;
-	margin: 0;
-}
-.dropit .dropit-trigger { position: relative; }
-.dropit .dropit-submenu {
-    width:75px;
+	width:75px;
 	margin-right:8px;
 	margin-top:24px;
 	float:right;
 	text-align:center;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	position:relative; bottom:0px;
+}
+.dropit .dropit-trigger { position: relative; }
+.dropit .dropit-submenu {
+    position: absolute;
+    top: 100%;
+    left: 0; /* dropdown left or right */
+    z-index: 1000;
+    display: none;
+    min-width: 150px;
+    list-style: none;
+	padding: 0;
+	margin: 0;
 }
 .dropit .dropit-open .dropit-submenu { display: block; }
