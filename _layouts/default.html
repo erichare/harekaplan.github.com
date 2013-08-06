@@ -15,6 +15,8 @@
 	  })();
 
 	</script> 
+	<link type="text/css" rel="stylesheet" href="jquery.dropdown.css" />
+	<script type="text/javascript" src="jquery.dropdown.js"></script>
   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="Description" content="Website housing the work of Eric Hare and Andee Kaplan." />
   <meta name="Keywords" content="math, mathematics, computation, statistics, R, Iowa State University" />
@@ -33,6 +35,18 @@
         <div id="linkGroup">
 			<div class="link"><a href="contact.html">Contact</a></div>
 			<div class="link"><a href="election.html">Election</a></div>
+			<div id="dropdown-1" class="dropdown dropdown-tip">
+    			<ul class="dropdown-menu">
+        			<li><a href="#1">Item 1</a></li>
+        			<li><a href="#2">Item 2</a></li>
+        			<li><a href="#3">Item 3</a></li>
+        			<li class="dropdown-divider"></li>
+        			<li><a href="#4">Item 4</a></li>
+        			<li><a href="#5">Item 5</a></li>
+        			<li><a href="#5">Item 6</a></li>
+    			</ul>
+			</div>
+			<div class="link"><a href="#" data-dropdown="#dropdown-1">dropdown</a></div>
             <div class="link"><a href="index.html">Home</a></div>
         </div>
         
