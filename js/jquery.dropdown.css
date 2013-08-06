@@ -86,7 +86,7 @@
 
 .dropdown .dropdown-menu LI > A:hover,
 .dropdown .dropdown-menu LABEL:hover {
-	background-image:url(tab2.gif);
+	background-color: #B5C8E9;
 	color: #FFF;
 	cursor: pointer;
 }
