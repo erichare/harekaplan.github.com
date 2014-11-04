@@ -1,4 +1,4 @@
-kaplanhare.github.io
+gammaRama.github.io
 =====================
 
 The work of Eric Hare and Andee Kaplan.
